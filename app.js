@@ -33,7 +33,7 @@ const fetchExchangeRate = async () => {
     div.setAttribute('role', 'alert')
     button.classList.add('btn-close')
     button.setAttribute('type', 'button')
-    button.setAttribute('Attribute', 'Close')
+    button.setAttribute('aria-label', 'Close')
 
     button.addEventListener('click', () => {
       div.remove()
